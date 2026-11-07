@@ -1,0 +1,6 @@
+{
+  "name": "Diwali Dhamaka – The Great Festival of Lights",
+  "description": "An educational 3D mobile game celebrating Diwali with maths, budgeting, firework safety, and dazzling 3D celebrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

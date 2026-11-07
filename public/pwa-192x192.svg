@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="192" height="192">
+  <defs>
+    <radialGradient id="bg192" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="60%" stop-color="#1e1035"/>
+      <stop offset="100%" stop-color="#090514"/>
+    </radialGradient>
+    <radialGradient id="glow192" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="diyaGrad192" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="flameGrad192" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="40%" stop-color="#f59e0b"/>
+      <stop offset="85%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="128" fill="url(#bg192)"/>
+  <circle cx="256" cy="230" r="140" fill="url(#glow192)"/>
+  <path d="M256 120 C285 180 290 220 275 250 C265 268 247 268 237 250 C222 220 227 180 256 120 Z" fill="url(#flameGrad192)"/>
+  <ellipse cx="256" cy="265" rx="145" ry="38" fill="#fbbf24"/>
+  <ellipse cx="256" cy="263" rx="138" ry="32" fill="#7c2d12"/>
+  <path d="M115 265 Q256 390 397 265 Q360 380 256 385 Q152 380 115 265 Z" fill="url(#diyaGrad192)"/>
+  <rect x="96" y="420" width="320" height="46" rx="23" fill="#fbbf24"/>
+  <text x="256" y="451" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="22" fill="#4a0e4e" letter-spacing="3">DIWALI DHAMAKA</text>
+</svg>

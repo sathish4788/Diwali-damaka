@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgFav" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7e22ce"/>
+      <stop offset="100%" stop-color="#3b0764"/>
+    </radialGradient>
+    <linearGradient id="flameFav" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgFav)"/>
+  <circle cx="256" cy="230" r="140" fill="#fbbf24" opacity="0.3"/>
+  <path d="M256 120 C285 180 290 220 275 250 C265 268 247 268 237 250 C222 220 227 180 256 120 Z" fill="url(#flameFav)"/>
+  <ellipse cx="256" cy="270" rx="140" ry="36" fill="#fbbf24"/>
+  <path d="M120 270 Q256 390 392 270 Q350 375 256 380 Q160 375 120 270 Z" fill="#c2410c"/>
+</svg>

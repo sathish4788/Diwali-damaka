@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="60%" stop-color="#1e1035"/>
+      <stop offset="100%" stop-color="#090514"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="diyaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="40%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="40%" stop-color="#f59e0b"/>
+      <stop offset="85%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+
+  <!-- Golden Ring border -->
+  <rect width="496" height="496" x="8" y="8" rx="120" fill="none" stroke="url(#goldRim)" stroke-width="6" opacity="0.6"/>
+
+  <!-- Outer Sparkle Stars / Fireworks -->
+  <g opacity="0.85">
+    <circle cx="120" cy="110" r="4" fill="#fef08a"/>
+    <circle cx="390" cy="90" r="5" fill="#f43f5e"/>
+    <circle cx="430" cy="180" r="4" fill="#38bdf8"/>
+    <circle cx="90" cy="220" r="3.5" fill="#a855f7"/>
+    <circle cx="256" cy="60" r="5" fill="#4ade80"/>
+
+    <!-- Star bursts -->
+    <path d="M120 100 L120 120 M110 110 L130 110" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M390 80 L390 100 M380 90 L400 90" stroke="#f43f5e" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M430 172 L430 188 M422 180 L438 180" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Giant Glow around flame -->
+  <circle cx="256" cy="230" r="140" fill="url(#glow)"/>
+
+  <!-- Diya Flame -->
+  <path d="M256 120 C285 180 290 220 275 250 C265 268 247 268 237 250 C222 220 227 180 256 120 Z" fill="url(#flameGrad)"/>
+  <!-- Inner Bright Core -->
+  <path d="M256 160 C270 200 274 225 264 245 C258 255 248 255 242 245 C232 225 236 200 256 160 Z" fill="#ffffff" opacity="0.9"/>
+
+  <!-- Diya Base (Clay lamp) -->
+  <ellipse cx="256" cy="265" rx="145" ry="38" fill="url(#goldRim)"/>
+  <ellipse cx="256" cy="263" rx="138" ry="32" fill="#7c2d12"/>
+
+  <!-- Bowl Body -->
+  <path d="M115 265 Q256 390 397 265 Q360 380 256 385 Q152 380 115 265 Z" fill="url(#diyaGrad)"/>
+  <!-- Base Stand -->
+  <ellipse cx="256" cy="385" rx="55" ry="14" fill="#9a3412"/>
+  <ellipse cx="256" cy="392" rx="45" ry="10" fill="#7c2d12"/>
+
+  <!-- Diya Ornaments (Petals / Dots) -->
+  <g fill="#fef08a" opacity="0.95">
+    <circle cx="256" cy="330" r="7"/>
+    <circle cx="216" cy="324" r="6"/>
+    <circle cx="296" cy="324" r="6"/>
+    <circle cx="178" cy="310" r="5"/>
+    <circle cx="334" cy="310" r="5"/>
+    <circle cx="145" cy="290" r="4"/>
+    <circle cx="367" cy="290" r="4"/>
+  </g>
+
+  <!-- Typography badge at bottom -->
+  <rect x="96" y="420" width="320" height="46" rx="23" fill="#fbbf24"/>
+  <text x="256" y="451" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="22" fill="#4a0e4e" letter-spacing="3">DIWALI DHAMAKA</text>
+</svg>
